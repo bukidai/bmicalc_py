@@ -4,7 +4,7 @@ import tkinter as tk
 class BMICalculator:
     def __init__(self, root):
         self.root = root
-        self.root.title("BMI Calculator")
+        self.root.title("BMI Calculator2")
 
         self.label_height = tk.Label(root, text="身長（cm）：")
         self.label_height.pack()

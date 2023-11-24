@@ -4,7 +4,7 @@ from BMICalculator import BMICalculator
 def main():
     height = float(input("Enter height in meters: "))
     weight = float(input("Enter weight in kilograms: "))
-    bmiCalc = BMICalculator(weight, height)
+    bmiCalc = BMICalculator(height=height, weight=weight)
     print("BMI is", bmiCalc.calculateBMI(), bmiCalc.getBMI())
 
 

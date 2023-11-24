@@ -1,0 +1,11 @@
+name: tagged-actions
+run-name: tagged-actions
+on:
+    release:
+        types: [published]
+
+jobs:
+    test-command:
+        runs-on: ubuntu-latest
+        steps:
+            - run: date
